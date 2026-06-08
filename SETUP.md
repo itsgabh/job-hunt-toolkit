@@ -1,6 +1,6 @@
 # Setup
 
-Step-by-step setup for the Job Search Toolkit. The only step you can't skip is
+Step-by-step setup for the Job Hunt Toolkit. The only step you can't skip is
 **filling in your profile** (Step 2) — the skills personalize entirely from it.
 
 ---
@@ -8,8 +8,8 @@ Step-by-step setup for the Job Search Toolkit. The only step you can't skip is
 ## 1. Clone
 
 ```bash
-git clone <your-fork-url> job-search-toolkit
-cd job-search-toolkit
+git clone <your-fork-url> job-hunt-toolkit
+cd job-hunt-toolkit
 ```
 
 No build step and no dependencies. The scraper uses only the Python 3 standard library.

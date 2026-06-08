@@ -1,4 +1,4 @@
-# Job Search Toolkit
+# Job Hunt Toolkit
 
 An open, **profile-driven** Claude plugin for running a job search end to end — in **any
 field**. You fill in **one** profile template, and eight skills personalize to you — JD
@@ -88,7 +88,7 @@ This is a standard Claude plugin. Two common ways to use it:
 **As a plugin (skills available globally):**
 
 ```bash
-git clone <your-fork-url> job-search-toolkit
+git clone <your-fork-url> job-hunt-toolkit
 # Point your Claude plugin config at the cloned directory, or copy the skills/
 # directory into your Claude skills location.
 ```

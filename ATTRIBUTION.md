@@ -2,7 +2,7 @@
 
 Built by Gab Hollero ([@itsgabh](https://github.com/itsgabh)).
 
-`job-search-toolkit` started as an independent build: a personal job-search skill set
+`job-hunt-toolkit` started as an independent build: a personal job-search skill set
 put together before it was needed. After building it, I came across two open-source
 projects working the same problem and borrowed selectively from one of them. This file
 records that honestly.

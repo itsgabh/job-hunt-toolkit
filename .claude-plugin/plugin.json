@@ -1,5 +1,5 @@
 {
-  "name": "job-search-toolkit",
+  "name": "job-hunt-toolkit",
   "version": "0.1.0",
   "description": "Profile-driven Claude plugin for running a job search end to end: evaluate roles, tailor resumes, prep interviews, negotiate.",
   "author": {
