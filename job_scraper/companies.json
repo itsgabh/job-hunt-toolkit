@@ -1,0 +1,30 @@
+{
+  "_comment": "Target-company registry for ATS career-page scraping. Each company's slug is verified against its ATS endpoint. status: verified = endpoint returns jobs; pending = slug/ATS not yet resolved (the fetcher skips it). tags are free-form (e.g. global/remote/async). This is a starter list of remote-first companies; grow it over time by adding your own target employers. Use `python job_scraper/fetch_jobs.py --resolve <careers-url>` to detect a company's ATS and slug.",
+  "_starter_list": true,
+  "companies": [
+    {"name": "GitLab", "ats": "greenhouse", "slug": "gitlab", "tags": ["global", "remote", "async"], "status": "verified"},
+    {"name": "Canonical", "ats": "greenhouse", "slug": "canonical", "tags": ["global", "remote"], "status": "verified"},
+    {"name": "Cloudflare", "ats": "greenhouse", "slug": "cloudflare", "tags": ["global", "remote"], "status": "verified"},
+    {"name": "Elastic", "ats": "greenhouse", "slug": "elastic", "tags": ["global", "remote", "async"], "status": "verified"},
+    {"name": "Grafana Labs", "ats": "greenhouse", "slug": "grafanalabs", "tags": ["global", "remote", "async"], "status": "verified"},
+    {"name": "Vercel", "ats": "greenhouse", "slug": "vercel", "tags": ["global", "remote"], "status": "verified"},
+    {"name": "Webflow", "ats": "greenhouse", "slug": "webflow", "tags": ["global", "remote"], "status": "verified"},
+    {"name": "Mattermost", "ats": "greenhouse", "slug": "mattermost", "tags": ["global", "remote", "async"], "status": "verified"},
+    {"name": "Ghost", "ats": "greenhouse", "slug": "ghost", "tags": ["global", "remote", "async"], "status": "verified"},
+    {"name": "Aha!", "ats": "greenhouse", "slug": "aha", "tags": ["global", "remote", "async"], "status": "verified"},
+    {"name": "Zapier", "ats": "ashby", "slug": "zapier", "tags": ["global", "remote", "async"], "status": "verified"},
+    {"name": "Deel", "ats": "ashby", "slug": "deel", "tags": ["global", "remote"], "status": "verified"},
+    {"name": "PostHog", "ats": "ashby", "slug": "posthog", "tags": ["global", "remote", "async"], "status": "verified"},
+    {"name": "1Password", "ats": "ashby", "slug": "1password", "tags": ["global", "remote"], "status": "verified"},
+    {"name": "Close", "ats": "ashby", "slug": "close", "tags": ["global", "remote", "async"], "status": "verified"},
+    {"name": "Supabase", "ats": "ashby", "slug": "supabase", "tags": ["global", "remote", "async"], "status": "verified"},
+
+    {"name": "Automattic", "ats": "", "slug": "", "tags": ["global", "remote", "async"], "status": "pending"},
+    {"name": "Oyster", "ats": "", "slug": "", "tags": ["global", "remote"], "status": "pending"},
+    {"name": "Sourcegraph", "ats": "", "slug": "", "tags": ["global", "remote", "async"], "status": "pending"},
+    {"name": "dbt Labs", "ats": "", "slug": "", "tags": ["global", "remote"], "status": "pending"},
+    {"name": "Buffer", "ats": "", "slug": "", "tags": ["global", "remote", "async"], "status": "pending"},
+    {"name": "Toggl", "ats": "", "slug": "", "tags": ["global", "remote", "async"], "status": "pending"},
+    {"name": "Cal.com", "ats": "", "slug": "", "tags": ["global", "remote", "async"], "status": "pending"}
+  ]
+}

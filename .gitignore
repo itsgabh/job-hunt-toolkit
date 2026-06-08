@@ -1,0 +1,33 @@
+# --- Your filled-in profile (NEVER commit your personal data) ---------------
+# Only the blank template ships. Copies named profile.md are yours to keep local.
+references/profile.md
+skills/*/references/profile.md
+
+# --- Job-search working data ------------------------------------------------
+data/
+job_scraper/seen_jobs.json
+job_search_tracker.csv
+job_scraper/manual_inbox/*
+!job_scraper/manual_inbox/.gitkeep
+!job_scraper/manual_inbox/processed/.gitkeep
+
+# --- Generated documents ----------------------------------------------------
+*.pdf
+*.docx
+cv/
+cover_letters/out/
+
+# --- Your own filled-in references (optional, if you personalize the scaffolds) ---
+# Uncomment if you fill the starter scaffolds with real content you don't want public.
+# skills/interview-story-bank/references/seed-stories.md
+# skills/cover-letter-drafter/references/example-letters.md
+# skills/cv-bullet-tailor/references/original-resumes/*.md
+
+# --- Python / OS ------------------------------------------------------------
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+
+# User scraper config (create from scraper_config.example.json)
+job_scraper/scraper_config.json

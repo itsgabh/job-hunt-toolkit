@@ -1,0 +1,19 @@
+{
+  "name": "job-search-toolkit",
+  "version": "0.1.0",
+  "description": "Profile-driven Claude plugin for running a job search end to end: evaluate roles, tailor resumes, prep interviews, negotiate.",
+  "author": {
+    "name": "Gab Hollero",
+    "url": "https://github.com/itsgabh"
+  },
+  "license": "MIT",
+  "keywords": [
+    "job-search",
+    "resume",
+    "cover-letter",
+    "interview-prep",
+    "negotiation",
+    "career",
+    "remote-work"
+  ]
+}

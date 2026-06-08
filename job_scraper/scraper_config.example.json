@@ -1,0 +1,56 @@
+{
+  "_comment": "WORKED EXAMPLE (replace with your own field): this file targets People/HR roles for an EU (Spain-home) candidate purely as a filled-in illustration. Copy it to scraper_config.json, then replace role_keywords / exclude_keywords / override_keywords / jobicy_industry / remotive_category / himalayas_queries / eligible_regions / home_country with the terms and geography of YOUR field (engineering, sales, design, finance, etc.). Keys prefixed with '_' are ignored by the loader. With NO scraper_config.json present, the scraper falls back to a generic worldwide-remote, match-all search.",
+
+  "_role_keywords": "Title must contain at least one of these (case-insensitive substring). Empty list = match ALL titles.",
+  "role_keywords": [
+    "people operations", "people ops", "peopleops", "people & operations",
+    "talent operations", "talent ops",
+    "people experience", "px operations", "employee experience",
+    "people systems", "hr systems", "hris", "hr operations", "hr ops",
+    "people program", "people enablement", "people analytics",
+    "people & culture", "people and culture", "people culture",
+    "people partner", "talent partner", "people business partner", "hrbp",
+    "hr business partner", "people advisor", "hr advisor",
+    "people generalist", "hr generalist", "human resources generalist",
+    "people specialist", "hr specialist", "people coordinator", "hr coordinator",
+    "people manager", "people lead", "hr manager", "hr lead",
+    "people associate", "people & talent", "people and talent",
+    "head of people", "chief people", "vp of people", "vp people",
+    "director of people", "people director", "director, people",
+    "head of talent", "director of talent",
+    "talent acquisition", "recruiting operations", "recruitment operations",
+    "human resources", "onboarding specialist", "onboarding manager"
+  ],
+
+  "_exclude_keywords": "Drop a title if it contains any of these (avoids off-target roles).",
+  "exclude_keywords": [
+    "engineer", "developer", "software", "designer", "sales", "marketing",
+    "account executive", "data engineer", "devops", "frontend", "backend",
+    "sourcer", "payroll", "benefits", "compensation", "total rewards",
+    "accountant", "bookkeeper", "customer", "product manager"
+  ],
+
+  "_override_keywords": "Allowlist that RESCUES an otherwise-excluded title if it also matches one of these (e.g. 'People Systems Engineer').",
+  "override_keywords": ["people", "talent", "hris", "employee experience"],
+
+  "_jobicy_industry": "Jobicy API industry filter (https://jobicy.com/jobs-rss-feed#api). 'hr' = Human Resources. Empty = no industry filter.",
+  "jobicy_industry": "hr",
+
+  "_remotive_category": "Remotive API category slug. Empty = no category filter.",
+  "remotive_category": "human-resources",
+
+  "_himalayas_queries": "Search queries run against the Himalayas API (one request each).",
+  "himalayas_queries": [
+    "people operations", "talent operations", "people experience",
+    "hr systems", "people partner", "head of people"
+  ],
+
+  "_eligible_regions": "Which geo tiers to keep. Recognized values: 'worldwide', a 'home_country' name (e.g. 'spain'), 'europe'/'eu'/'emea', 'us'/'united states'. classify_geo maps each posting to worldwide | home | eu | us_only | other; a posting is kept if its tier is eligible. For a US candidate, use e.g. [\"worldwide\", \"us\"].",
+  "eligible_regions": ["worldwide", "europe", "spain"],
+
+  "_home_country": "Your home country (lowercase). Postings naming it are tiered 'home' and ranked just after worldwide. Empty = no home tier.",
+  "home_country": "spain",
+
+  "_past_company_slugs": "Former employers to skip by default, as lowercase underscore-separated name slugs (e.g. ['acme_corp', 'globex']). Re-include any for a single run with --boomerang acme_corp.",
+  "past_company_slugs": []
+}
