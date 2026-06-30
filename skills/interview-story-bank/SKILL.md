@@ -29,6 +29,7 @@ Trigger whenever you:
 - Mention an upcoming behavioral interview and want prep
 - Use "tell me about a time when…" framing
 - Ask "what questions should I prepare for [role]" or "what will they likely ask me"
+- Ask how to answer "why should we hire you?" or any variant ("sell yourself," "why you," "make your case")
 
 The skill is mode-aware. Infer the mode from how you phrase the request; ask for clarification only if genuinely ambiguous.
 
@@ -222,6 +223,53 @@ Questions with no story match — address these before the interview:
 - **Strongest coverage:** [competencies with 3+ stories]
 - **Sparse coverage (consider capturing more):** [competencies with 0–1 stories]
 ````
+
+## Special case: "Why should we hire you?"
+
+This question is not a CTAR story. It's a diagnostic + conversation flip. Do not answer it with a story — answer it with this framework:
+
+**The structure:**
+
+1. **Disarm the sell.** "Honestly, I'm not sure yet." Signals confidence, not hesitation.
+2. **Name the pain points.** "Based on our conversation today, it sounds like you need someone to solve [pain 1], [pain 2], and [pain 3]." Pull these from the company-research-brief and from what the interviewer has said in this specific conversation.
+3. **Map your experience.** "Some of my favorite work at [Company] came from solving exactly those kinds of problems." One sentence — company name and type of work, not a full story.
+4. **Conditional close.** "If that's what's needed here, I feel confident I can do it." Confident but not arrogant.
+5. **Stay curious.** "I'd want to meet the rest of the team and understand what gaps they're seeing before I say you definitely should." Shows judgment.
+6. **Flip it.** "I'm curious — based on our conversation, what's your read?" Turns a pitch into a dialogue.
+
+**When building the answer:**
+
+- Pain points must come from the actual conversation + the JD, not from generic assumptions. The answer gets sharper as the interview progresses — it's best used at the end of a first round, not the start.
+- The company-research-brief's pain points section is the prep input. Surface the top 2–3 before the interview so they're ready to name.
+- The experience mapping is one line. If the interviewer wants more, they'll ask — that's when Mode 1 kicks in.
+
+**Output format for this question:**
+
+```
+## Answer framework: "Why should we hire you?"
+
+**Disarm:**
+[one sentence that opens without selling]
+
+**Pain points to name (from this JD/conversation):**
+- [pain 1]
+- [pain 2]
+- [pain 3]
+
+**Experience map:**
+[one sentence — company, type of work, what it solved]
+
+**Conditional close + stay curious:**
+[one sentence confident close + one sentence about wanting to learn more]
+
+**Flip:**
+[one sentence inviting their perspective]
+
+---
+
+**Full spoken version (~90 seconds):**
+[connected prose version to practice aloud]
+```
 
 ## Critical rules
 
