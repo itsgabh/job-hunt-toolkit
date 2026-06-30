@@ -1,10 +1,10 @@
 # Job Hunt Toolkit
 
 An open, **profile-driven** Claude plugin for running a job search end to end — in **any
-field**. You fill in **one** profile template, and eight skills personalize to you — JD
+field**. You fill in **one** profile template, and nine skills personalize to you — JD
 fit analysis, CV bullet tailoring, cover letters, an interview story bank, company
-research, recruiter outreach, negotiation prep, and multi-role comparison. A free,
-API-driven remote-jobs scraper rounds it out.
+research, recruiter outreach, follow-up drafting, negotiation prep, and multi-role
+comparison. A free, API-driven remote-jobs scraper rounds it out.
 
 **No candidate data is baked in.** Every skill reads your `profile.md`. Out of the box
 the profile is a blank template with placeholders; until you fill it in, the skills run
@@ -18,33 +18,40 @@ marketing, or anything else. You supply your own profile content, resume variant
 
 ## What's in the box
 
-### The 8 skills
+### The 9 skills
 
 1. **jd-fit-analyzer** — Scores a job description against your profile on a five-dimension
    hard-match rubric, gives a strategic-fit verdict, an apply/pass recommendation, and a
-   resume-variant suggestion. The entry point: most workflows start here.
+   resume-variant suggestion. Requirements table is color-coded G/Y/R (Green = example
+   ready, Yellow = positionable, Red = real gap) so fit analysis doubles as interview prep.
+   The entry point: most workflows start here.
 2. **cv-bullet-tailor** — Rewrites 3–5 high-leverage resume bullets to match a JD, two
    honest angles each, traced to specific JD signals. Never invents experience or inflates
    metrics. Picks up the fit analyzer's tailoring priorities.
 3. **cover-letter-drafter** — Drafts a first-pass cover letter in your voice: 350–450
    words, one concrete proof story, four opener archetypes, a forbidden-phrase filter.
 4. **interview-story-bank** — Builds, captures, and indexes CTAR-formatted behavioral
-   interview stories tagged by competency, so you can pull the right story for the right
-   question. Standard + elevator versions, plus watchouts.
+   interview stories tagged by competency. Four modes: retrieve a story for a question,
+   capture a new experience as CTAR, index your bank by theme, or pull the 5–8 most likely
+   questions for a specific JD (with story-match mapping and prep gap flags).
 5. **company-research-brief** — Produces a pre-interview brief: business snapshot, recent
-   moves, a maturity read on the function you'd join, likely pain points, and 5–7
+   moves, a maturity read on the function you'd join, likely pain points, a comp benchmark
+   (Levels.fyi / Glassdoor market range vs. what the JD discloses), and 5–7
    stage-appropriate smart questions. Needs web search/fetch tools.
 6. **recruiter-outreach-drafter** — Drafts channel-aware outreach (LinkedIn DM/InMail,
    email, Slack, Teams) in two genuinely different variants, with a follow-up suggestion.
-7. **negotiation-prep** — Builds the comp comparison (equity haircuts, PTO-as-cash, tax
+7. **follow-up-drafter** — Drafts a post-interview thank-you email (3–4 sentences) and a
+   LinkedIn connection note (200 chars), both anchored to one specific moment from the
+   conversation. Designed to be sent the same day.
+8. **negotiation-prep** — Builds the comp comparison (equity haircuts, PTO-as-cash, tax
    bands), identifies BATNA, sets walk-away/target/aspirational numbers, drafts principled
    counter scripts, and treats flexibility as real comp. The highest-stakes skill.
-8. **compare** — Weighs 2–3 roles side by side using the same rubric, surfaces the real
+9. **compare** — Weighs 2–3 roles side by side using the same rubric, surfaces the real
    trade-offs, and ends with a clear "prioritize X" call.
 
 The skills are designed to chain: **jd-fit-analyzer → cv-bullet-tailor /
-cover-letter-drafter → company-research-brief / interview-story-bank → negotiation-prep**,
-with **compare** as the decision layer when multiple roles are live.
+cover-letter-drafter → company-research-brief / interview-story-bank → follow-up-drafter
+→ negotiation-prep**, with **compare** as the decision layer when multiple roles are live.
 
 ### The job scraper
 
