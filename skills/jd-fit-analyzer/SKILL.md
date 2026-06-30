@@ -145,10 +145,14 @@ Use this exact structure. Verdict block FIRST so you can decide in 30 seconds, t
 
 ### Requirements vs. evidence
 
-| Requirement | Have it? | Evidence | Gap/Stretch |
-|---|---|---|---|
-| [requirement 1] | Yes/Partial/No | [from profile.md] | [comment] |
+Color-code each row: **G** = solid match with a ready interview example, **Y** = partial or positionable, **R** = real gap.
+
+| Requirement | G/Y/R | Have it? | Evidence | Example ready / gap note |
+|---|---|---|---|---|
+| [requirement 1] | G/Y/R | Yes/Partial/No | [from profile.md] | [story title or gap framing] |
 | ... |
+
+The G/Y/R column is the interview-prep handoff: R rows need a story built; Y rows need a framing note; G rows are ready.
 
 ### Gaps
 - **Hard gaps** (must-address): [list, or "None identified"]

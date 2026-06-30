@@ -79,6 +79,17 @@ Use `function-maturity-rubric.md` to assign a maturity level for the function yo
 
 The maturity level changes the role's shape and the questions to ask. A "first hire" role for a founder-led function is a different job from a specialist role in a mature function — even if the JDs use similar language.
 
+### Step 4b — Comp benchmark
+
+If the JD does not disclose salary, search for market rates:
+
+- Levels.fyi for the role title + company (or similar stage/size companies)
+- Glassdoor salary tool for the role title + location
+- LinkedIn Salary if visible
+- Any comp data in the JD itself (benefits, equity signals, contract type)
+
+Produce a range with source and date. Flag when the data is thin or outdated. If the JD does disclose comp, sanity-check it against market: is it above, at, or below band?
+
 ### Step 5 — Identify likely pain points
 
 Cross-reference what you found against the role. Examples:
@@ -144,6 +155,14 @@ Use this template. Skip any section that has nothing to say — half a brief tha
 - [observation with source]
 
 **Who leads the function:** [name, title, background — or "not publicly identified"]
+
+---
+
+## Comp benchmark
+
+- **Market range:** [low – high, role title + location/remote, source + date]
+- **JD disclosed:** [salary or "Not disclosed"]
+- **Assessment:** Above / At / Below band — [one line]
 
 ---
 

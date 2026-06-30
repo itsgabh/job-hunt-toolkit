@@ -15,6 +15,8 @@ Three modes, one skill. Behavioral interviews ask the same shape of question acr
 
 **Mode 3 — Index.** You ask what stories you have for a theme. The skill returns the list and flags coverage gaps.
 
+**Mode 4 — Question pull.** Given a role title and JD, surface the 5–8 most likely interview questions (common behavioral + role-specific) so you know what to practice before the interview.
+
 ## When to use
 
 Trigger whenever you:
@@ -26,6 +28,7 @@ Trigger whenever you:
 - Paste an experience and ask to format it as CTAR
 - Mention an upcoming behavioral interview and want prep
 - Use "tell me about a time when…" framing
+- Ask "what questions should I prepare for [role]" or "what will they likely ask me"
 
 The skill is mode-aware. Infer the mode from how you phrase the request; ask for clarification only if genuinely ambiguous.
 
@@ -90,6 +93,18 @@ Don't bombard with all four at once. One question, wait for the answer, then the
 **Step 3.** Tag with 2–4 competencies from `competency-taxonomy.md`. Confirm the tags with you before saving.
 
 **Step 4.** Output in a format you can paste into your story bank as a new entry, with frontmatter.
+
+### Mode 4 — Question pull for a role
+
+**Step 1.** Parse the JD for: role level, scope signals, key responsibilities, any competency language used explicitly.
+
+**Step 2.** Pull the 3–4 most common behavioral questions for this role type from `competency-taxonomy.md` — questions that appear in almost every interview at this level.
+
+**Step 3.** Pull 2–4 role-specific questions derived from JD keywords. If the JD says "scale onboarding globally," the question is "Tell me about a time you built or scaled an onboarding program."
+
+**Step 4.** For each question, check `seed-stories.md` for an existing story match and note it.
+
+**Step 5.** Flag any question with no good story match — these are the prep gaps to address before the interview.
 
 ### Mode 3 — Index existing stories
 
@@ -165,6 +180,32 @@ competencies: [tag1, tag2, tag3]
 role: [employer or context]
 length: [standard / elevator]
 ```
+````
+
+### Mode 4 — Question pull
+
+````markdown
+# Interview question prep: [Role Title] at [Company]
+
+## Common behavioral questions (appear in most interviews at this level)
+
+| Question | Competency | Story match |
+|---|---|---|
+| [question] | [competency tag] | [story title, or "No match — prep needed"] |
+| ... |
+
+## Role-specific questions (derived from this JD)
+
+| Question | JD signal that prompted it | Story match |
+|---|---|---|
+| [question] | [JD phrase] | [story title, or "No match — prep needed"] |
+| ... |
+
+## Prep gaps
+
+Questions with no story match — address these before the interview:
+
+- [question] — suggested competency to build a story around: [competency]
 ````
 
 ### Mode 3 — Index
