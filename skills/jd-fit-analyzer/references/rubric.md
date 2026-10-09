@@ -82,9 +82,10 @@ Round to one decimal place. Map to qualitative label:
 
 Required for every analysis. Format:
 
-| Requirement | Have it? | Evidence | Gap/Stretch |
-|---|---|---|---|
+| Requirement | G/Y/R | Have it? | Evidence | Gap/Stretch |
+|---|---|---|---|---|
 
+- **G/Y/R**: `G` = solid match with a ready interview example, `Y` = partial or positionable, `R` = real gap (R rows go to the story bank)
 - **Have it?**: `Yes` / `Partial` / `No` (no emoji)
 - **Evidence**: cite the specific role, scope, or metric from `profile.md`
 - **Gap/Stretch**: if Yes, what makes it strong; if Partial, what's missing; if No, how big the gap is
@@ -123,6 +124,7 @@ Run all seven. Each gets a `Yes` / `No` / `Partial` with a one-line reason.
 4. **Flexibility & geographic freedom?**
    - Does the role meet any extended-remote-from-abroad needs in your profile (e.g. recurring weeks working from another country)? Check for: "work from anywhere," "work from abroad," generous PTO, async-first culture.
    - Are working hours flexible (async or core-hours) vs. strict 9–5?
+   - Is there a required time-zone window? If you plan to work from a distant time zone for extended stretches, a fixed window (e.g. ±1 CET, or US Eastern overlap) turns those stays into evening or night hours. Cap at "Partial" unless the JD says hours are flexible, and flag demands that combine several distant time zones at once.
    - Is the role truly remote, or hybrid with mandatory in-office cadence that would block your extended-remote needs?
    - "Yes" if work-from-anywhere is explicit OR culture is async-first with generous flexibility. "Partial" if remote-friendly but ambiguous on extended remote-from-abroad. "No" if rigid hybrid with mandatory in-office days that would block the extended-remote periods your profile depends on.
 

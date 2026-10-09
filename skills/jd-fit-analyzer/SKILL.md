@@ -34,7 +34,7 @@ Optional context you might add:
 Before producing the analysis, read these three reference files in order:
 
 1. `references/profile.md` — your canonical profile (current role, career arc, strengths, honest gap inventory, career direction, voice, preferences). This is the canonical record of who you are professionally.
-2. `references/rubric.md` — How to score hard match (five weighted dimensions, 0–10 each) and how to derive the strategic fit verdict (five direction-alignment checks, qualitative label).
+2. `references/rubric.md` — How to score hard match (five weighted dimensions, 0–10 each) and how to derive the strategic fit verdict (seven direction-alignment checks, qualitative label).
 3. `references/resume-variants.md` — When to recommend each of your four resume variants (Master / Specialist-IC / Non-profit / Consulting).
 
 Always read all three. They are sized to fit together in context and each informs different parts of the output.
@@ -48,6 +48,7 @@ Extract from the JD:
 - Location and work model (remote / hybrid / onsite, and if hybrid, where)
 - Reporting line if visible (who you'd report to, who reports to you)
 - Compensation signals (salary range, equity, benefits, contract type)
+- Required time-zone overlap or core hours (e.g. "±1 CET", "3+ hrs with US Eastern"), because a fixed window can push extended remote-from-abroad stays into evening or night hours
 - Required experience (years, role level)
 - Required tools / systems (named platforms)
 - Domain / industry
